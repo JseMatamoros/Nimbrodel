@@ -1,0 +1,95 @@
+.carouselExampleDark {
+  width: 100%;
+  height: 800px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.carousel-indicators {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#carousel-caption {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  top: 20; /* ajusta la distancia desde la parte superior */
+  bottom: 30px; /* ajusta la distancia desde la parte inferior */
+}
+
+#carousel-caption h5, #carousel-caption p {
+  color: white;  
+  display: block;
+  align-content: flex-start;
+  align-items: flex-start;
+ 
+  text-align: center;
+}
+
+
+#carousel-inner {
+  
+  background-color: black !important;
+  border: 2px solid azure !important;
+  margin-top: 10px !important;
+  margin-bottom: 30px !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  text-align: center !important; /* centramos el contenido horizontalmente */
+  height: 800px !important;
+}
+
+
+
+#carousel-item img {
+  background-position: 0 20px !important;
+  align-items: center !important;
+  padding-top: 30px !important;
+  padding-bottom: 20px !important;
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
+  width: 600px !important;
+  max-width: 100% !important;
+  height: 400px !important;
+  object-fit: cover !important;
+}
+
+.close-carousel-btn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  color: black;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 10%;
+  font-size: 18px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+  height: 50px;
+  padding-top: 250px;
+}
+
+/* .custom-close-btn:before {
+  content: "X";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+
+

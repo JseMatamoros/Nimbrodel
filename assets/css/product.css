@@ -1,0 +1,75 @@
+
+
+.card.full-screen {
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 70%;
+  margin: 0;
+  margin-top: 30px !important;
+  padding-top: 30px !important;
+  margin-left: 15px;
+  padding: 0;
+  z-index: 1000;
+  overflow: visible;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card.full-screen .card-img-top {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  
+  
+}
+
+.card.full-screen .card-body, .card.full-screen .card-title, .card.full-screen .card-text {
+  display: block;
+  
+}
+
+.card.full-screen .card-title, .card-text {
+  display: flex;
+  margin-top: 10px;
+  position: initial;
+}
+
+.card.full-screen .card-body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card.full-screen .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.full-screen .card-img-top {
+  max-height: calc(100vh - 100px);
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 100%;
+  background-size: cover;
+  
+}
+
+.card.full-screen .btn {
+  display: none;
+}

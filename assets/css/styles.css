@@ -1,0 +1,221 @@
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* logotipo nimbrodel */
+#logo {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* haeder */
+#header {
+    width: 100%;
+    height: auto;
+
+    background-color: black;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    background-color: white;
+
+}
+
+/* fondo del navbar */
+#navbar {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/fondo.jpg);
+    background-color: black;
+}
+
+ul li a {
+    color: white !important;
+}
+
+/* cards igualar tamaños*/
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* FORMS */
+
+.formulario {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* carrusel */
+.carousel-inner {
+    /* Establece la altura fija de las imágenes en el carrusel */
+    height: auto;
+    max-height: 30rem;
+    display: flex;
+    justify-content: cover;
+    object-fit: cover;
+
+}
+
+.carousel-item img {
+
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+}
+
+#arrow-left,
+#arrow-right {
+    height: auto;
+}
+
+/* FOOTER */
+footer {
+    background-image: url(../images/fondo.jpg);
+    text-align: center;
+}
+
+.custom-footer {
+    height: 11.25rem;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+
+}
+
+/* texto "todos los derechos..." */
+.copy {
+    margin: 4rem;
+}
+
+/* MEDIA QUERY X-SMALL */
+@media (min-width: 320px) and (max-width: 576px) {
+    #navbar {
+        background-size: 60%;
+        background-position: center 30px;
+        background-repeat: no-repeat;
+        background-color: black !important;
+    }
+
+    footer {
+        background-size: 70%;
+        background-position: center 40px;
+        background-repeat: no-repeat;
+
+
+    }
+    #cont-formulario {
+        display: none;
+    }
+}
+/* MQ tamaño MD */
+
+@media (min-width: 577px) and (max-width: 767px) {
+    #navbar {
+        background-size: 75%;
+        background-position: center 30px;
+        background-repeat: no-repeat;
+        background-color: black !important;
+    }
+
+    #logo {
+        display: flex;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    footer {
+        background-size: 75%;
+        background-position: center 30px;
+        background-repeat: no-repeat;
+    }
+    #cont-formulario {
+        display: none;
+    }
+}
+/* GRANDE */
+@media (min-width: 767px) and (max-width: 920px) {
+    #navbar {
+        background-size: 75%;
+        background-position: center 30px;
+        background-repeat: no-repeat;
+        background-color: black !important;
+    }
+
+    #logo {
+        display: flex;
+        width: 6rem;
+        height: 6rem;
+    }
+
+    footer {
+        background-size: 75%;
+        background-position: center 30px;
+        background-repeat: no-repeat;
+    }
+    #formulario1,#formulario2 {
+        display: block !important;
+    }
+    
+}
+/* XG */
+@media (min-width: 921px) and (max-width: 1200px) {
+    #navbar {
+        background-size: 75%;
+        background-position: center 30px;
+        background-repeat: no-repeat;
+        background-color: black !important;
+    }
+
+    #logo {
+        display: flex;
+        width: 6rem;
+        height: 6rem;
+    }
+
+    footer {
+        background-size: 75%;
+        background-position: center 30px;
+        background-repeat: no-repeat;
+    }
+    #formulario1,#formulario2 {
+        display: block !important;
+    }
+   
+}
+/* XXG ++++++ */
+@media (min-width: 1200px) {
+    #navbar {
+        background-size: 60%;
+        background-position: center 13px;
+        background-repeat: no-repeat;
+        background-color: black !important;
+    }
+
+    #logo {
+        display: flex;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    footer {
+        background-size: 60%;
+        background-position: center -8px;
+        background-repeat: no-repeat;
+    }
+    #formulario1,#formulario2 {
+        display: block !important;
+    }
+    
+}
