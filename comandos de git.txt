@@ -1,0 +1,175 @@
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git log
+commit 76b852df84f8990311466da9c29245c651d565d0 (HEAD -> master)
+Author: AryunDev <josematamoros916@gmail.com>
+Date:   Tue Apr 18 00:51:37 2023 -0400
+
+    Primer commit del restaurante nimbrodel, subiendo todo el proyecto
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git add .
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git commit -m "segundo commit"
+On branch master
+nothing to commit, working tree clean
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git .v
+git: '.v' is not a git command. See 'git --help'.
+
+The most similar command is
+        mv
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git -v
+git version 2.40.0.windows.1
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git remote -v
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/José/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12/.git/
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git init
+Initialized empty Git repository in C:/Users/José/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12/.git/
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        assets/
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git add .
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git remote add origin https://github.com/JseMatamoros/Nimbrodel.git
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git commit -m "primer commit para nimbrodel"
+[master (root-commit) cfc4a75] primer commit para nimbrodel
+ 17 files changed, 937 insertions(+)
+ create mode 100644 assets/css/leyenda.css
+ create mode 100644 assets/css/product.css
+ create mode 100644 assets/css/styles.css
+ create mode 100644 assets/images/IMG1.jpg
+ create mode 100644 assets/images/IMG2.jpg
+ create mode 100644 assets/images/bebidas.jpg
+ create mode 100644 assets/images/chorillana.jpg
+ create mode 100644 assets/images/fondo.jpg
+ create mode 100644 assets/images/mojito.jpg
+ create mode 100644 assets/images/n.png
+ create mode 100644 assets/images/shop.jpeg
+ create mode 100644 assets/images/tablas.jpg
+ create mode 100644 assets/images/vino.jpg
+ create mode 100644 assets/js/leyenda.js
+ create mode 100644 assets/js/product.js
+ create mode 100644 assets/js/scripts.js
+ create mode 100644 index.html
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git push -u origin master
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (23/23), 3.83 MiB | 1.36 MiB/s, done.
+Total 23 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/JseMatamoros/Nimbrodel/pull/new/master
+remote:
+To https://github.com/JseMatamoros/Nimbrodel.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git def
+git: 'def' is not a git command. See 'git --help'.
+
+The most similar command is
+        diff
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git diff
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ diff
+diff: missing operand after 'diff'
+diff: Try 'diff --help' for more information.
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git log
+commit cfc4a75d3b768a2e0fd2648761e6bf1f1e90bb35 (HEAD -> master, origin/master)
+Author: AryunDev <josematamoros916@gmail.com>
+Date:   Tue Apr 18 01:10:51 2023 -0400
+
+    primer commit para nimbrodel
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git checkout main
+Switched to a new branch 'main'
+branch 'main' set up to track 'origin/main'.
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (main)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git merge main
+fatal: refusing to merge unrelated histories
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$ git branch -D main
+Deleted branch main (was c0af7d8).
+
+José@DESKTOP-K3GNJDI MINGW64 ~/Desktop/Talento digital/m2-ELE0625/sesion12/eva12/evaluacion12 (master)
+$
